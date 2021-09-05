@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Cascadia Code', 'monospace', monospace, 'Droid Sans Fallback'",
+    "diffEditor.wordWrap": "on",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.lintOnSave": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.formatting.yapfArgs": [
+        "--style={  column_limit: 100 }"
+    ],
+    "window.openFoldersInNewWindow": "on",
+}
